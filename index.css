@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+}
+
+.container-fluid .row {
+    justify-content: center;
+    gap: 5px;
+}
+
+.top .row #banner-1 {
+    width: calc(90% - 33px);
+    height: auto;
+}
+
+@media only screen and (max-width: 1930px) {
+    .navbar-toggler {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .top .row #banner-1 {
+        width: 100%;
+        height: 490px;
+    }
+
+    .top .row .banner {
+        display: unset;
+        width: 100%;
+    }
+
+    .top .bannerleft {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5px;
+    }
+
+    .main .row {
+        margin: unset;
+    }
+
+    .navbar-toggler {
+        display: unset;
+    }
+}
+
+.top .navbar .navbar-toggler {
+    position: absolute;
+    background: none;
+    border: 1px solid white;
+    margin-left: -130px;
+}
+
+.row .active, .aaa {
+    height: 70px;
+}
+
+.row nav {
+    width: calc(80% - 30px);
+    position: absolute;
+    margin: 0 10%;
+}
+
+.top .row .collapse {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(227, 226, 226);
+}
+
+.row nav > p {
+    padding: 0 12%;
+}
+
+.row .collapse .active:hover {
+    border-bottom: 3px solid blue;
+}
+
+.row .aaa img {
+    margin-top: 25px;
+}
+
+.row .aaa > img:hover {
+    border-bottom: 3px solid blue;
+}
+
+#logo {
+    width: 8%;
+    height: 8%;
+    margin: 10px 8%;
+    border-bottom: none
+}
+
+.row .banner {
+    justify-content: center;
+    position: relative;
+    gap: 5px;
+    display: flex;
+    width: calc(90% - 33px);
+    height: auto;
+}
+
+.bannerleft img {
+    width: 100%;
+    height: auto;
+}
+
+.bannerleft button {
+    position: absolute;
+    padding: 12px 80px;
+    margin: 50px;
+    color: white;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    border: 2px solid white;
+    background: none;
+}
+
+.bannerleft button:hover {
+    border: 2px solid rgb(169, 168, 168);
+    color: rgb(169, 168, 168);
+}
+
+.bannerright img {
+    width: 100%;
+    height: auto;
+}
+
+.bannerright button {
+    position: absolute;
+    padding: 12px 80px;
+    margin: 50px;
+    color: white;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    border: 2px solid white;
+    background: none;
+}
+
+.bannerright button:hover {
+    border: 2px solid rgb(169, 168, 168);
+    color: rgb(169, 168, 168);
+}
+
+.main {
+    background: rgb(242, 242, 242);
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+}
+
+.main .row {
+    width: calc(100%);
+    gap: 5px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+.main .row .icon {
+    margin-top: 20px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.main .row button {
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#laithu {
+    color: white;
+    background: rgb(28, 105, 212);
+    border: none;
+}
+
+#laithu:hover {
+    background: rgb(11, 83, 185);
+}
+
+.main .row .button-item .service {
+    border: 1px solid;
+}
+
+.main .row .button-item .service:hover {
+    border: 2px solid;
+}
+
+.product {
+    width: 100%;
+    height: 170px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.product .one, .two {
+    width: 80%;
+    margin-left: 10%;
+    border-bottom: 1px solid #d7d7d7;
+    justify-content: space-between;
+}
+
+.product > .three, .four, .five {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.product .one button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    background: none;
+    font-weight: 500;
+    color: #666;
+}
+
+.one button:hover {
+    color: black;
+}
+
+.product .two button {
+    width: 60px;
+    height: 80px;
+    border: none;
+    background: none;
+    font-weight: 500;
+    color: #666;
+}
+
+.two button:hover {
+    color: black;
+}
+
+.product .row .defaut {
+    border-bottom: 4px solid rgb(28, 105, 212);
+    color: black;
+}
+
+.product .three .card {
+    border: none;
+    width: 300px;
+    height: 340px;
+    text-align: left;
+}
+
+.product .three .card > img {
+    border: none;
+    width: 285px;
+    height: 160px;
+}
+
+.card a:hover {
+    color: rgb(28, 105, 212);
+}
+
+.product .four .card {
+    margin: 20px 0;
+    width: 290px;
+    height: 350px;
+    text-align: left;
+}
+
+.product .four .card > img {
+    margin: 15px 15px 0;
+    width: 260px;
+    height: 140px;
+}
+
+.product .five .card {
+    width: 280px;
+    height: 145px;
+    background: rgb(230, 230, 230);
+    border: none;
+}
+
+.product .five .card > img {
+    margin: 30px 125px 0;
+    width: 30px;
+    height: 30px;
+}
+
+.product .five .card:hover {
+    background: rgb(204, 204, 204);
+}
+
+.product .footer {
+    width: 100%;
+    height: auto;
+    margin: 50px 0;
+    display: flex;
+}
+
+.product .footer-item1 {
+    margin: 0;
+    width: 100%;
+    height: auto;
+    background: rgb(230, 230, 230);
+}
+
+.footer-item1 .footer-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-item2 {
+    justify-content: center;
+    margin: 30px 0;
+    color: rgb(22, 22, 213);
+    font-weight: 600;
+}
+
+#eng:hover {
+    font-weight: 650;
+    border-bottom: 2px solid
+}
+
+#AG21 {
+    color: #666666;
+    font-weight: 400;
+}
+
+.list {
+    color: #666666;
+}
+
+.list li:hover {
+    color: black;
+}
+
+.footer-item2 .end:hover {
+    color: black;
+}
