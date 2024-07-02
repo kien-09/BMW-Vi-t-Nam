@@ -89,7 +89,7 @@ for (let i = 0; i < ads.length; i++) {
                 <img src="${ads[i].img}"  class="card-img-top" alt="">
                 <div class="card-body">
                     <h2 class="card-title" style="font-size: 32px;font-weight: 350;height: 100px">${ads[i].nametag}</h2>
-                    <a href="#" class="btn btn-outline-dark" style="background: none;border: none;font-weight: 700;font-size: 20px;margin-top: 10px">>Khám phá thêm</a>
+                    <a href="#" class="btn btn-outline-dark" style="background: none;border: none;font-weight: 700;font-size: 20px;margin-top: 10px">> Khám phá thêm</a>
                 </div>
             </div>
     </div>
