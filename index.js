@@ -47,7 +47,7 @@ for (let i = 0; i < product.length; i++) {
                     <h5 class="card-title" style="font-size: 24px;font-weight: 450">${product[i].ten}</h5>
                     <h5 class="card-title" style="font-size: 15px;font-weight: 700 ">${product[i].loai}</h5>
                     <h5 class="card-title" style="font-size: 20px;font-weight: 400">${product[i].gia}</h5>
-                    <a href="#" class="btn btn-outline-dark" style="background: none;border: none;font-weight: 700;font-size: 20px">> Hiển thị thêm</a>
+                    <a href="#" class="btn btn-outline-dark" style="background: none;border: none;font-weight: 700;font-size: 20px"> > Hiển thị thêm</a>
                 </div>
             </div>
     </div>
